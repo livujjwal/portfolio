@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import { links } from "../utils/constant";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useState } from "react";
@@ -15,7 +15,9 @@ const Navbar = () => {
             key={id}
             className="px-4 border-b-white duration-200 border-b-2 hover-link"
           >
-            <Link to="">{title}</Link>
+            <Link to={id} smooth={true} offset={0} duration={800}>
+              {title}
+            </Link>
           </li>
         ))}
       </ul>
@@ -31,7 +33,9 @@ const Navbar = () => {
                 key={id}
                 className="px-4 border-b-white duration-200 border-b-2 hover-link"
               >
-                <Link to="">{title}</Link>
+                <Link to={id} smooth duration={500}>
+                  {title}
+                </Link>
               </li>
             ))}
           </ul>

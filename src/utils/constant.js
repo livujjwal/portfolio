@@ -3,7 +3,6 @@ import gobhukkad from "../assets/goBhukkad.png";
 import google from "../assets/googleSheet.png";
 import youtube from "../assets/youtube.png";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { AiFillGithub } from "react-icons/ai";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 export const projects = [

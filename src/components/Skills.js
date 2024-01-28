@@ -3,7 +3,10 @@ import { skills } from "../utils/constant";
 
 const Skills = () => {
   return (
-    <div className="flex flex-col items-center justify-center py-[4%]">
+    <div
+      name="skills"
+      className="flex flex-col items-center justify-center py-[4%]"
+    >
       <h6 className="text-[#353535] text-base text-center">Explore My</h6>
       <h1 className="text-5xl font-bold pb-[2%]">Skills</h1>
       <div className="flex items-center justify-center mx-auto gap-10 max-md:flex-col">
@@ -18,7 +21,10 @@ const Skills = () => {
               </h2>
               <div className="flex container flex-wrap gap-4">
                 {child.map(({ subTitle, rating }) => (
-                  <div className="py-4 px-6 flex flex-col items-center justify-center max-md:p-2 ">
+                  <div
+                    key={subTitle}
+                    className="py-4 px-6 flex flex-col items-center justify-center max-md:p-2 "
+                  >
                     <p className="w-40  text-2xl font-semibold p-1 max-md:text-xl max-sm:w-28">
                       <FaCertificate className="inline-block self-center" />{" "}
                       {subTitle}

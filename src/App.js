@@ -1,4 +1,4 @@
-import { BrowserRouter, createBrowserRouter } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import About from "./components/About";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
@@ -31,10 +31,10 @@ function App() {
       <Navbar />
       <Hero />
       <SocialLinks />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
+      <About id="about" />
+      <Skills id="skills" />
+      <Projects id="projects" />
+      <Contact id="contact" />
     </BrowserRouter>
   );
 }
