@@ -15,14 +15,14 @@ This project showcases my projects, skills, and experiences in a visually appeal
 
 ## Screenshots
 
-![Screenshot 1]<img width="937" alt="Screenshot 2024-02-08 031719" src="https://github.com/livujjwal/portfolio-react1/assets/132872642/dd65dc7d-daba-46c6-8264-d2a36bb2d2ac">
-<img width="650" alt="Screenshot 2024-02-08 031920" src="https://github.com/livujjwal/portfolio-react1/assets/132872642/38639f38-e16b-4bc0-a60a-61d35db9a7ea">
-<img width="487" alt="Screenshot 2024-02-08 032034" src="https://github.com/livujjwal/portfolio-react1/assets/132872642/d5bbab10-11d9-4765-9bea-aec53bbe3c13">
-<img width="499" alt="Screenshot 2024-02-08 032047" src="https://github.com/livujjwal/portfolio-react1/assets/132872642/629c47ea-6653-4ba0-83cf-9b3e0326ba21">
+![Screenshot 1]
 
+<img width="937" alt="Screenshot 2024-02-08 031719" src="https://github.com/livujjwal/portfolio/assets/132872642/3ddd1a08-cb53-4c75-93da-6ceaadcf7326">
+<img width="650" alt="Screenshot 2024-02-08 031920" src="https://github.com/livujjwal/portfolio/assets/132872642/e559a824-7e9b-4c68-89dd-d106e3d63700">
 
+<img width="487" alt="Screenshot 2024-02-08 032034" src="https://github.com/livujjwal/portfolio/assets/132872642/4c117426-5576-4977-be91-c7cdc8bfafc8">
 
-
+<img width="499" alt="Screenshot 2024-02-08 032047" src="https://github.com/livujjwal/portfolio/assets/132872642/71cd50d2-d8bc-4a6d-9040-536cd13e17a4">
 
 
 
@@ -37,9 +37,3 @@ This project is open-source software licensed under the MIT License. See the `LI
 ## Acknowledgments
 
 Special thanks to the creators and maintainers of React, Tailwind CSS, Redux, and Firebase for providing powerful tools and libraries that made this project possible.
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
