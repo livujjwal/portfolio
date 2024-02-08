@@ -31,12 +31,15 @@ const About = () => {
             ))}
           </div>
           <p className="w-[100%] px-12 ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-            reprehenderit et laborum, rem, dolore eum quod voluptate
-            exercitationem nobis, nihil esse debitis maxime facere minus sint
-            delectus velit in eos quo officiis explicabo deleniti dignissimos.
-            Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-            reiciendis ea magnam? Nulla, impedit fuga!
+            Ujjwal Singh holds a Bachelor's degree in Electronics and
+            Communication Engineering and excels in frontend development,
+            leveraging React, Tailwind CSS, HTML, CSS, and Redux to create
+            dynamic user interfaces. With a strong foundation in JavaScript,
+            Java, and SQL, I always ensures smooth application logic and
+            database management. Committed to delivering intuitive web
+            experiences, I am continuously explores new avenues in frontend
+            development. Dive into my portfolio to discover a showcase of
+            projects and contributions exemplifying their dedication and skill.
           </p>
         </div>
       </div>
