@@ -10,7 +10,7 @@ export const projects = [
     title: "Netflix",
     img: netflix,
     git: "https://github.com/livujjwal/netflix-gpt.git",
-    demo: "#",
+    demo: "https://netflix-gpt-sooty-one.vercel.app/",
   },
   {
     title: "GoBhukkad",
@@ -86,7 +86,7 @@ export const socialLinks = [
         Resume <BsFillPersonLinesFill size={40} className="px-2" />
       </>
     ),
-    href: "/Ujjwal Singh.pdf",
+    href: "Ujjwal Singh.pdf",
     style: "rounded-br-md",
     download: true,
   },

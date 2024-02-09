@@ -9,13 +9,13 @@ const Skills = () => {
     >
       <h6 className="text-[#353535] text-base text-center">Explore My</h6>
       <h1 className="text-5xl font-bold pb-[2%]">Skills</h1>
-      <div className="flex items-center justify-center mx-auto gap-10 max-md:flex-col">
+      <div className="flex items-center justify-center mx-auto gap-10 max-lg:flex-col">
         {skills.map(({ title, child }) => (
           <div
             key={title}
             className="flex items-center justify-center py-[4%] "
           >
-            <div className="flex flex-col items-center justify-center w-[40rem] h-1/2 py-6 border-2 border-text-[rbg(163,163,163)] rounded-2xl max-md:w-[80%] max-sm:w-[80%]">
+            <div className="flex flex-col items-center justify-center w-[80%] h-1/2 py-6 border-2 border-text-[rbg(163,163,163)] rounded-2xl  lg:w-[32rem]">
               <h2 className="text-4xl font-semibold text-[rgb(85,85,85)] max-sm:text-2xl">
                 {title}
               </h2>

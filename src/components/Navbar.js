@@ -7,7 +7,7 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   console.log(nav);
   return (
-    <div className=" flex justify-between items-center mx-auto w-full h-20 px-4">
+    <div className=" flex justify-between items-center mx-auto w-full h-20 px-6">
       <h1 className="text-6xl ml-2 font-logo max-sm:text-4xl">My Portfolio</h1>
       <ul className="hidden md:flex items-center text-2xl">
         {links.map(({ id, title }) => (

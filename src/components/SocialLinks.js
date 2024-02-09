@@ -14,7 +14,7 @@ export const SocialLinks = () => {
             }
           >
             <Link
-              href={href}
+              to={href}
               className="flex items-center justify-between w-full"
               target="_blank"
               download={download}

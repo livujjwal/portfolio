@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import pic from "../assets/pic.jpg";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 const Hero = () => {
@@ -19,16 +20,29 @@ const Hero = () => {
             Frontend Developer
           </h2>
           <div className="max-md:flex">
-            <button className="rounded-3xl border-2 border-black px-4 py-3 m-2 font-lg hover:bg-[#353535] hover:text-white hover:border-gray-700">
-              Download Resume
-            </button>
-            <button className="rounded-3xl border-2 px-10 py-3 m-2 font-lg bg-[#353535] text-white hover:bg-black hover:text-white">
-              Contact Info
-            </button>
+            <Link to="Ujjwal Singh.pdf" download={true} target="_blank">
+              <button className="rounded-3xl border-2 border-black px-4 py-3 m-2 font-lg hover:bg-[#353535] hover:text-white hover:border-gray-700">
+                Download Resume
+              </button>
+            </Link>
+            <Link to="mailto:ujjwalbietjhs@gmail.com" target="_blank">
+              <button className="rounded-3xl border-2 px-10 py-3 m-2 font-lg bg-[#353535] text-white hover:bg-black hover:text-white">
+                Contact Info
+              </button>
+            </Link>
           </div>
           <div className="flex items-center gap-4 py-2">
-            <AiFillLinkedin className="w-10 h-10 rounded-full" />
-            <AiFillGithub className="w-10 h-10 rounded-full" />
+            <Link
+              to="https://www.linkedin.com/in/ujjwal-singh-812647128/"
+              target="_blank"
+            >
+              {" "}
+              <AiFillLinkedin className="w-10 h-10 rounded-full" />
+            </Link>
+            <Link to="https://github.com/livujjwal" target="_blank">
+              {" "}
+              <AiFillGithub className="w-10 h-10 rounded-full" />
+            </Link>
           </div>
         </div>
       </div>
