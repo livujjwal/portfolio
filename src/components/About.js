@@ -1,4 +1,3 @@
-import pic from "../assets/pic.jpg";
 import { about } from "../utils/constant";
 const About = () => {
   return (

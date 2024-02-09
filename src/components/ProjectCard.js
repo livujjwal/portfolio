@@ -17,10 +17,14 @@ const ProjectCard = () => {
             </h2>
             <div className="flex items-center justify-between mx-auto">
               <button className="w-40 max-sm:w-24 max-sm:text-xs rounded-3xl border-2 border-black px-4 py-3 m-2 font-lg hover:bg-[#353535] hover:text-white hover:border-gray-700">
-                <Link to={git}>Github</Link>
+                <Link to={git} target="_blank">
+                  Github
+                </Link>
               </button>
               <button className="w-40 max-sm:w-24 max-sm:text-xs rounded-3xl border-2 border-black px-4 py-3 m-2 font-lg hover:bg-[#353535] hover:text-white hover:border-gray-700">
-                <Link to={demo}>Demo </Link>
+                <Link to={demo} target="_blank">
+                  Demo{" "}
+                </Link>
               </button>
             </div>
           </div>

@@ -1,5 +1,5 @@
 import netflix from "../assets/netflix.png";
-import gobhukkad from "../assets/goBhukkad.png";
+import instagram from "../assets/instagram.png";
 import google from "../assets/googleSheet.png";
 import youtube from "../assets/youtube.png";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
@@ -13,10 +13,10 @@ export const projects = [
     demo: "https://netflix-gpt-sooty-one.vercel.app/",
   },
   {
-    title: "GoBhukkad",
-    img: gobhukkad,
-    git: "https://github.com/livujjwal/go-bhukkad",
-    demo: "https://go-bhukkad.vercel.app/",
+    title: "Instagram",
+    img: instagram,
+    git: "https://github.com/livujjwal/instagram.git",
+    demo: "https://instagram-delta-ruby.vercel.app/",
   },
   {
     title: "Youtube",
